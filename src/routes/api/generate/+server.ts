@@ -37,7 +37,7 @@ export async function POST({ request }) {
         const messages = [
             {
                 role: "system",
-                content: "You are a professional email writer. Write emails that are clear, concise, and appropriate for the given context. Include all necessary components of a formal email including subject line, greeting, body, and closing. Do not include any markdown, LaTeX, or code formatting in your response."
+                content: "You are a professional email writer. Write emails that are clear, concise (~125 words), and appropriate for the given context. Include all necessary components of a formal email including subject line, greeting, body, and closing. Do not include any markdown, LaTeX, or code formatting in your response."
             },
             {
                 role: "user",
